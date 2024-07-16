@@ -37,7 +37,7 @@ export default function AiPrompt() {
   };
 
   return (
-    <div className="relative mx-auto p-4 w-screen h-screen flex flex-col items-center justify-center bg-[url(https://imgix.ranker.com/list_img_v2/13045/2853045/original/2853045?fit=crop&fm=pjpg&q=80&dpr=2&w=1200&h=720)] bg-no-repeat bg-center bg-cover">
+    <div className="relative mx-auto p-4 w-screen h-screen flex flex-col items-center justify-center bg-[url(/bg.png)] bg-no-repeat bg-center bg-cover">
       {/* Black overlay */}
       <div className="absolute inset-0 bg-black opacity-70"></div>
       
