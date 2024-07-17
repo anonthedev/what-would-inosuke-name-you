@@ -87,7 +87,7 @@ export default function AiPrompt() {
           >
             <input
               value={prompt}
-maxLength={20}
+maxLength={30}
               onChange={(e) => setPrompt(e.target.value)}
               placeholder="Enter your name"
               className="w-1/3 md:w-full p-2 border rounded bg-transparent text-white"
